@@ -4,7 +4,6 @@ from django.conf import settings
 
 # Create your views here.
 def main(request):
-    confirmation_message = None
 
     if request.method == 'POST':
         name = request.POST.get('name')
