@@ -5,3 +5,9 @@ var typed = new Typed(".text",{
     backDelay : 1000,
     loop : true
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const confirmationMessage = "Thank you for contacting us! We will be in touch with you shortly.";
+    if (confirmationMessage) {
+        alert(confirmationMessage);
+    }
+});

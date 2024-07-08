@@ -32,7 +32,7 @@
                 and a strong sense of responsibility being innovative , resourceful, open and responsive
                 to change.It has created in me an interest in lifelong learning.
             </p>
-            <div class="home-scl">
+            <div class="contact-icons">
                 <a href="https://www.facebook.com/affan.sukhera" style="--i:7"><i class='bx bxl-facebook'></i></a>
                 <a href="https://www.instagram.com/?hl=en" style="--i:8"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://web.whatsapp.com/" style="--i:9"><i class='bx bxl-whatsapp' ></i></a>
@@ -62,11 +62,7 @@
                 experience across different industries.
                 I'm a good learner and team player
                 That's all about my self.
-                <!-- My first exposure to professional life through internship has benefited me mostly in
-                strengthening my personal skills. I have developed a positive attitude and a strong
-                sense of responsibility being innovative , resourceful, open and responsive to change. It has
-                created in me an interest in lifelong learning.
-                I'm attentive listener and effective oral communication skill -->
+                
             </p>
             <a href="#" class="btn-box">More About Me</a>
         </div>
@@ -267,7 +263,9 @@
 
             </div>
         </div>
-
+        {% if confirmation_message %}
+        <div class="confirmation-message">{{ confirmation_message }}</div>
+        {% endif %}
         <div class="contact-form">
             <form action="" method="POST">
                 {% csrf_token %}
@@ -284,7 +282,7 @@
 
     </section>
     <div class="last-text">
-        <p>Developed By Affan....</p>
+        <p>Copyright &copy; 2024 by Affan Talib | All Rights Reserved.</p>
     </div>
     <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
 
