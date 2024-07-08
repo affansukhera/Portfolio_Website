@@ -1,2 +1,2 @@
 # .gitignore
-django.env
+.env
